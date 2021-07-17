@@ -1,7 +1,7 @@
 <template>
     <!--FOOTER-->
      
-    <div class="text-center bg-green-400 py-7">
+    <div class="text-center bg-secondary py-7">
         <div class="pb-5">
             <img src="/src/assets/footer-logo.png" class="m-auto md:w-auto w-20" alt="">
         </div>

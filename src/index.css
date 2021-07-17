@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.btn-outline {
+    @apply leading-9 text-center hover:bg-primary hover:text-white border border-blue-800 rounded-md text-primary lg:px-8 px-6;
+}
+
+.tab {
+    @apply text-right lg:text-2xl md:text-xl text-lg p-3 mb-2 cursor-pointer hover:bg-gray-50 font-bold text-gray-400;
+}
+
+.tab.active {
+    @apply bg-gray-50 text-primary;
+}
